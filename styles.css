@@ -51,3 +51,15 @@ body {
   box-shadow: 0 0 20px rgb(255, 255, 255);
   background-color: grey;
 }
+.start_btn{
+  height: 3rem;
+  width: 7rem;
+  /* font-size: 2rem; */
+  font-family: 'Press Start 2P', cursive;
+  background-color: rgb(247, 52, 52);
+  border: 3px solid black;
+  border-radius: 10px;
+}
+.start_btn:hover{
+  cursor: pointer;
+}
