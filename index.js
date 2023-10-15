@@ -5,6 +5,10 @@ var userClickedPattern = [];
 
 var gamePattern = [];
 
+$(".start_btn").click(function(){
+    newSequence();
+});
+
 var level = 0;
 var started = false;
 $(document).keypress(function(){
